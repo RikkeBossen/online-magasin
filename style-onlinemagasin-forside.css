@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: din-condensed, sans-serif;
+}
+
+body{
+    background-color: #EBDCCB;
+    color: #2F2723;
+}
+
+header{
+    background-color: #EBDCCB;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    align-content: space-between;
+    display: flex;
+    padding: 0px 0%;
+}
+
+#media-menu{
+    display: none;
+}
+
+ul, li, a{
+    font-size: x-large;
+    color: #2F2723;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    padding: 0px 28px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a:hover{
+color: #846C5B;
+}
+
+img.collage-image{
+    width: 100%;
+}
+
+section.categories{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    padding-top: 18px;
+    margin: 23px;
+}
+
+
+p#image-text{
+    text-align: center;
+}
+
+img.images{
+    width: 100%;
+  }
+
+/* jeg er helt lost på den her del */
+
+@media screen and (max-width: 480px){
+
+#navlinks{
+    display: none;
+}
+
+#media-menu{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+}
+
+
+
+
+
